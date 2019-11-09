@@ -87,7 +87,7 @@ function getinput() {
                 rows1,
                 fields1
               ) {
-                if (!err1) console.log("Order placed.");
+                if (!err1) console.log("Order placed!");
                 process.exit(0);
               });
             }
