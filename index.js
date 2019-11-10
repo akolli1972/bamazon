@@ -73,7 +73,7 @@ function getinput() {
             //Check if stock_quantity is greater than or equal to user input value
             if (rows[0].stock_quantity < user_input_quantity) {
               //If less, show a message
-              console.log("Sorry, we dont have enough stock.");
+              console.log("Sorry, insufficient Quantity.");
               getinput();
             } else {
               //Otherwise calculate and show the total cost
@@ -87,7 +87,7 @@ function getinput() {
                 rows1,
                 fields1
               ) {
-                if (!err1) console.log("Order placed!");
+                if (!err1) console.log("Success! Your order has been placed!");
                 process.exit(0);
               });
             }
