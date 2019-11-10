@@ -36,7 +36,7 @@ User will be prompted to pick another item id.
 
 # Screenshots:
 
-![screenshot of items and user prompts](./Screenshot1.png)
+![screenshot of items and user prompts](./screenshot1.png)
 ![Screenshot showing sql editor inventory update](./Screenshot2.png)
 ![screenshot showing another user transaction](./Screenshot3.png)
 ![screenshot showing inventory update again on product](./Screenshot4.png)
